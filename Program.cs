@@ -1,10 +1,16 @@
-﻿namespace cli_task_tracker
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace cli_task_tracker
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var repository = new TaskRepository($"{Directory.GetCurrentDirectory()}\\tasks.json");
+            var service = new TaskService(repository);
+            var commandManager = new CommandManager(service);
+            commandManager.Run(args);
         }
+            
     }
 }

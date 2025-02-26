@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cli_task_tracker
 {
-    internal class Task
+    public class Task
     {
         public int Id { get; set; }
         public string Description { get; set; }
@@ -15,7 +15,7 @@ namespace cli_task_tracker
         public DateTime UpdatedAt { get; set; }
     }
 
-    enum Status
+    public enum Status
     {
         Todo,
         InProgress,
