@@ -4,19 +4,19 @@ This is a simple console-based task tracker application, that allows the user ke
 
 ### Features/commands:
 
-- Add new task: `cli-task-tracker add <description>`
-- Update task: `cli-task-tracker update <taskId> <description>`
-- Delete task: `cli-task-tracker delete <taskIid>`
-- List tasks: `cli-task-tracker list [todo|in-progress|done]`
-- Mark task as in progress: `cli-task-tracker mark-in-progress <taskId>`
-- Mark task as done: `cli-task-tracker mark-done <taskIid>`
+- Add new task: `task-cli add <description>`
+- Update task: `task-cli update <taskId> <description>`
+- Delete task: `task-cli delete <taskId>`
+- List tasks: `task-cli list [ todo | in-progress | done ]`
+- Mark task as in progress: `task-cli  mark-in-progress <taskId>`
+- Mark task as done: `task-cli mark-done <taskIid>`
 
 ### Installation
 
 1. Clone repository
     
     ```bash
-    git clone https://github.com/migmaram/cli-task-tracker
+    git clone https://github.com/migmaram/task-cli 
     ```
     
 2. Navigate to the project directory
@@ -37,10 +37,11 @@ This is a simple console-based task tracker application, that allows the user ke
     dotnet build
     ```
     
-5. Run the application (Open your console in the directory where the application was built and run one the allowed commands)
+5. Run the application (In the directory where the application was built, open your console and run any of the commands in the Feaures/commands section)
 
-<aside>
-✨ The main goal of this project was to practice C# coding, SOLID notions, and file management. I took the idea, as part of the back end software development path, from: https://roadmap.sh/projects/task-tracker
-</aside>
+
+
+✨ The goal of building this project was to practice C# coding, SOLID principles, and file management. I took the idea from: [Developer Roadmaps - Task Tracker CLI](https://roadmap.sh/projects/task-tracker)
+
 
 
