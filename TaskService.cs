@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace cli_task_tracker
+namespace task_cli
 {
     public class TaskService : ITaskService
     {

@@ -1,6 +1,6 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 
-namespace cli_task_tracker
+namespace task_cli
 {
     internal class Program
     {

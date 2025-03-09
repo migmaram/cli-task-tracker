@@ -1,4 +1,4 @@
-﻿namespace cli_task_tracker
+﻿namespace task_cli
 {
     public interface ITaskService
     {

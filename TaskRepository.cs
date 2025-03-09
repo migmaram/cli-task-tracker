@@ -6,7 +6,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace cli_task_tracker
+namespace task_cli
 {
     public class TaskRepository : ITaskRepository
     {
